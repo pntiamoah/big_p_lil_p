@@ -1,0 +1,131 @@
+/* lINE 2 - 60 covers floating heart stuff */
+html, body {
+    height: 100%;
+    background-color: #ffaa67;
+}
+
+.bg_heart {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.heart {
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -m-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.heart:before, .heart:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+.heart:before {
+    top: -50%;
+    left: 0;
+}
+
+.heart:after {
+    top: 0;
+    right: -50%;
+}
+
+@-webkit-keyframes love {
+    0% { top: 110%; }
+}
+
+@-moz-keyframes love {
+    0% { top: 110%; }
+}
+
+@-ms-keyframes love {
+    0% { top: 110%; }
+}
+
+@keyframes love {
+    0% { top: 110%; }
+}
+
+/* ********** Video Player Styling (SMALLER SIZE) ********** */
+.video-container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 40%;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#site-title {
+    position: relative; /* Keep the title in normal flow */
+    z-index: 2; /* Bring title above the background */
+    text-align: center; /* Center align the title */
+    margin: 20px 0; /* Add margin to space it out from other elements */
+    color: black; /* Title color */
+    font-size: 3em; /* Increase font size */
+    font-family: 'Quicksand', sans-serif; /* Softer, rounder font */
+    font-weight: bold; /* Make the font bold */
+}
+
+#elapsed-timer {
+    position: absolute;
+    top: 72%; /* Keep it at 75% of the page height */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em; /* Increase font size */
+    font-weight: bold; /* Make the font bold */
+    color: #333;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px 30px; /* Add more padding for a bigger background area */
+    background-color: rgba(128, 128, 128, 0.8); /* Grey background with higher opacity */
+    border-radius: 12px; /* Larger rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+}
+
+#icon-links {
+    position: absolute;
+    top: 85%; /* Position slightly below the elapsed timer */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px; /* Space between icons */
+}
+
+.icon-link img {
+    width: 100px; /* Set icon size */
+    height: 100px;
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: transform 0.3s; /* Smooth scale effect */
+}
+
+.icon-link img:hover {
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+}
+
+
+
+
