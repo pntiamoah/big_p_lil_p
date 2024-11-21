@@ -126,6 +126,43 @@ video {
     transform: scale(1.2); /* Slightly enlarge icon on hover */
 }
 
+@media screen and (max-width: 768px) {
+    /* General Styling Adjustments */
+    body {
+        background-color: #ffaa67; /* Maintain the background color */
+    }
+
+    #site-title {
+        font-size: 2em; /* Reduce title font size */
+        margin: 10px 0;
+    }
+
+    .video-container {
+        top: 10%; /* Adjust positioning */
+        width: 90%; /* Expand video to fit most of the screen */
+        max-width: none; /* Remove the maximum width restriction */
+    }
+
+    #elapsed-timer {
+        font-size: 1.2em; /* Adjust font size for better readability */
+        padding: 10px 20px; /* Adjust padding */
+        top: 60%; /* Move closer to the video */
+    }
+
+    #icon-links {
+        top: 75%; /* Adjust position */
+        gap: 10px; /* Reduce spacing between icons */
+        flex-wrap: wrap; /* Allow wrapping for small screens */
+        justify-content: center; /* Center align icons */
+    }
+
+    .icon-link img {
+        width: 70px; /* Shrink icons for smaller screens */
+        height: 70px;
+    }
+}
+
+
 
 
 
