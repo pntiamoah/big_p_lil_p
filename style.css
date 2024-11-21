@@ -92,7 +92,7 @@ video {
 
 #elapsed-timer {
     position: absolute;
-    top: 72%; /* Keep it at 75% of the page height */
+    top: 75%; /* Keep it at 75% of the page height */
     left: 50%;
     transform: translateX(-50%);
     font-size: 2em; /* Increase font size */
