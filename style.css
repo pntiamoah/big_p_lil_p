@@ -148,7 +148,6 @@ video {
         font-size: 1.2em; /* Adjust font size for better readability */
         padding: 10px 20px; /* Adjust padding */
         top: 60%; /* Move closer to the video */
-        white-space: nowrap; /* Prevent text wrapping */
     }
 
     #icon-links {
@@ -163,8 +162,5 @@ video {
         height: 70px;
     }
 }
-
-
-
 
 
