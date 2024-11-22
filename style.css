@@ -139,7 +139,7 @@ video {
     }
 
     .video-container {
-        top: 10%; /* Adjust positioning */
+        top: 30%; /* Adjust positioning */
         width: 90%; /* Expand video to fit most of the screen */
         max-width: none; /* Remove the maximum width restriction */
     }
@@ -147,7 +147,7 @@ video {
     #elapsed-timer {
         font-size: 1.2em; /* Adjust font size for better readability */
         padding: 10px 5%; /* Use percentage padding for consistent scaling */
-        top: 60%; /* Move closer to the video */
+        top: 75%; /* Move closer to the video */
         width: 90%; /* Slightly reduce width to leave space for margins */
         max-width: 100%; /* Ensure no limit on width */
         box-sizing: border-box; /* Include padding in the width */
