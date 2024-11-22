@@ -104,7 +104,7 @@ video {
     background-color: rgba(128, 128, 128, 0.8); /* Grey background with higher opacity */
     border-radius: 12px; /* Larger rounded corners */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
-    white-space: nowrap; /* Prevent text wrapping */
+    /* white-space: nowrap; /* Prevent text wrapping */
 }
 
 #icon-links {
