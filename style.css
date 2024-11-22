@@ -146,8 +146,13 @@ video {
 
     #elapsed-timer {
         font-size: 1.2em; /* Adjust font size for better readability */
-        padding: 10px 20px; /* Adjust padding */
+        padding: 10px 5%; /* Use percentage padding for consistent scaling */
         top: 60%; /* Move closer to the video */
+        width: 90%; /* Slightly reduce width to leave space for margins */
+        max-width: 100%; /* Ensure no limit on width */
+        box-sizing: border-box; /* Include padding in the width */
+        white-space: normal; /* Allow text to wrap within the container */
+        text-align: center; /* Keep text centered */
     }
 
     #icon-links {
