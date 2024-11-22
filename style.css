@@ -147,7 +147,7 @@ video {
     #elapsed-timer {
         font-size: 1.2em; /* Adjust font size for better readability */
         padding: 10px 5%; /* Use percentage padding for consistent scaling */
-        top: 90%; /* Move closer to the video */
+        top: 80%; /* Move closer to the video */
         width: 90%; /* Slightly reduce width to leave space for margins */
         max-width: 100%; /* Ensure no limit on width */
         box-sizing: border-box; /* Include padding in the width */
@@ -156,7 +156,7 @@ video {
     }
 
     #icon-links {
-        top: 100%; /* Adjust position */
+        top: 95%; /* Adjust position */
         gap: 10px; /* Reduce spacing between icons */
         flex-wrap: wrap; /* Allow wrapping for small screens */
         justify-content: center; /* Center align icons */
